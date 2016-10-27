@@ -26,7 +26,7 @@ article {
 .banner {
   position: absolute;
   width: 100%;
-  max-width: 800px;
+  max-width: 785px;
   padding: 0 1rem;
   bottom: 0;
   left: 50%;
@@ -34,7 +34,7 @@ article {
 }
 
 h2 {
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   line-height: 1.4;
 }
 
@@ -48,4 +48,5 @@ p {
   font-size: 2rem;
   font-style: italic;
   margin-top: 0;
+  margin-bottom: .5rem;
 }
