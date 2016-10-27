@@ -9,8 +9,13 @@ html {
 
 body {
   margin: 0;
-  position: absolute;
   overflow: hidden;
+}
+
+article {
+  position: relative;
+  overflow: hidden;
+  max-height: 500px;
 }
 
 .img-flex {
@@ -20,25 +25,24 @@ body {
 
 .banner {
   position: absolute;
-  max-height: 500px;
   width: 650px;
   padding: 0 1rem;
-  bottom: -5px;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
-h1 {
+h2 {
   margin-bottom: 0;
 }
 
-h1 span {
+h2 span {
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
 }
 
-h2 {
+p {
   font-size: 2rem;
   font-style: italic;
   margin-top: 0;
