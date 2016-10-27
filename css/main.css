@@ -9,17 +9,36 @@ html {
 
 body {
   margin: 0;
+  position: absolute;
 }
 
-img {
+.img-flex {
   width: 100%;
   display: block;
 }
 
+.banner {
+  position: absolute;
+  max-height: 500px;
+  width: 650px;
+  padding: 0 1rem;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 h1 {
+  margin-bottom: 0;
+}
+
+h1 span {
   font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
 }
 
 p {
   font-size: 2rem;
+  font-style: italic;
+  margin-top: 0;
 }
