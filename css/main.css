@@ -10,6 +10,7 @@ html {
 body {
   margin: 0;
   position: absolute;
+  overflow: hidden;
 }
 
 .img-flex {
@@ -37,7 +38,7 @@ h1 span {
   color: #fff;
 }
 
-p {
+h2 {
   font-size: 2rem;
   font-style: italic;
   margin-top: 0;
